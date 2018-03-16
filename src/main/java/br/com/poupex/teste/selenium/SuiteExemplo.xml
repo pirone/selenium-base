@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+	<listener class-name="br.com.poupex.teste.selenium.utils.ReportListener"/>
+</listeners>
+    <test name="SCI">
+        <parameter name="browserName" value="chrome"></parameter>
+        <classes>
+        	<class name="br.com.poupex.teste.selenium.TesteExemplo"/>
+        </classes>
+    </test>
+</suite>
